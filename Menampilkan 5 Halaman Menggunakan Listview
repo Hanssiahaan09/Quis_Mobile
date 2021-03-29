@@ -34,19 +34,19 @@ class HalamanPertama extends StatelessWidget {
             RaisedButton(
               child: Text('Pindah Halaman Ketiga'),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, HalamanKetiga.routeName);
+                Navigator.push(context, HalamanKetiga.routeName);
               },
             ),
             RaisedButton(
               child: Text('Pindah Halaman Keempat'),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, HalamanKeempat.routeName);
+                Navigator.push(context, HalamanKeempat.routeName);
               },
             ),
             RaisedButton(
               child: Text('Pindah Halaman Kelima'),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, HalamanKelima.routeName);
+                Navigator.push(context, HalamanKelima.routeName);
               },
             ),
           ],
